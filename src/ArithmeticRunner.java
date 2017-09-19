@@ -9,8 +9,9 @@ public class ArithmeticRunner {
 		int n2 = sc.nextInt();
 		Arithmetic object = new Arithmetic(n1, n2);
 		System.out.println(object.arithmetic());
-		System.out.println(object.compareIntegers());
-		System.out.println(object.oddOrEven());
+		System.out.printf("%s is bigger", object.compareIntegers());
+		System.out.println("\nThe first number is even: " + object.oddOrEven());
+		System.out.println("The first number is a multiple of the second: " + object.multiples());
 		sc.close();
 	}
 }

@@ -50,4 +50,8 @@ public class Arithmetic
 	{
 		return (num1 % 2 == 0);
 	}
+	public boolean multiples()
+	{
+		return((num1 % num2) == 0);
+	}
 }
